@@ -113,6 +113,12 @@ background-image:url(../imgs/apache.png);
 	
 }
 
+#explosao3 {
+	width:44px;
+	height:51px;
+	position:absolute;
+}
+
 @keyframes play {
 	from {background-position:0px;}
 	to {background-position:-512px;}
@@ -158,6 +164,17 @@ background-image:url(../imgs/apache.png);
          -o-animation: play2 .9s steps(12) infinite;
 }
 
+.anima4 {
+	width:44px;
+	height:51px;
+	background-image:url(../imgs/amigo_explosao.png);
+	animation:play3 .5s steps(7) infinite;
+	-webkit-animation: play3 .5s steps(7) infinite;
+       -moz-animation: play3 .5s steps(7) infinite;
+        -ms-animation: play3 .5s steps(7) infinite;
+         -o-animation: play3 .5s steps(7) infinite;
+}
+
 @keyframes play2 {
 	from {background-position:0px;}
 	to {background-position:-528px;}
@@ -182,3 +199,28 @@ background-image:url(../imgs/apache.png);
    from { background-position:    0px; }
      to { background-position: -528px; }
 }
+@keyframes play3 {
+	from {background-position:0px;}
+	to {background-position:-308px;}
+}
+
+@-webkit-keyframes play3 {
+   from { background-position:    0px; }
+     to { background-position: -308px; }
+}
+
+@-moz-keyframes play3 {
+   from { background-position:    0px; }
+     to { background-position: -308px; }
+}
+
+@-ms-keyframes play3 {
+   from { background-position:    0px; }
+     to { background-position: -308px; }
+}
+
+@-o-keyframes play3 {
+   from { background-position:    0px; }
+     to { background-position: -308px; }
+}
+
